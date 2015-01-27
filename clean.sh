@@ -10,7 +10,7 @@ mv -v Guinea.cc.txt.clean Guinea.cc.txt
 # fix china file just want top 12 rows
 echo "Fixing China.cc.txt file"
 head -n 12 China.cc.txt > China.cc.txt.clean
-mv -V China.cc.txt.clean China.cc.txt
+mv -v China.cc.txt.clean China.cc.txt
 
 # fix niger file just want top 12 rows
 echo "Fixing Niger.cc.txt file"
